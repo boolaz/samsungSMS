@@ -138,7 +138,7 @@ def main(argv):
 		if sms_date:
 			sms_text=sms_text.replace("\n",". ")
 			try:
-				out_file.write ("{0}\t{1}\t{2}\t{3}\t{4}\n".format(sms_date,sms_cell,sms_box,sms_status,replace_special_chars(sms_text)))
+				out_file.write ("{0};{1};{2};{3};{4}\n".format(sms_date,sms_cell,sms_box,sms_status,replace_special_chars(sms_text)))
 			except:
 				print "Error occured exporting file"
 
