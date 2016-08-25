@@ -10,7 +10,7 @@ Of course, this script I release today is related to Samsung phones and can be a
 
 ## Prerequisites
 
-samsungSMS has been developed in python 2.7 and has been successfully tested on Linux Ubuntu 14.04 LTS, MacOSX 10.11.6 El Capitan and Windows 8.1 x64. This tool doesn't require any additional python modules to be run.
+samsungSMS has been developed in python 2.7 and has been successfully tested on Linux Ubuntu 14.04 LTS, MacOSX 10.11.6 El Capitan. This tool doesn't require any additional python modules to be run.
 A stand-alone binary version for windows is also available for download.
 
 ## Syntax
