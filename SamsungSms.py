@@ -145,7 +145,7 @@ def main(argv):
 		in_file.close()
 
 	out_file.close()
-	print "{0!s} SMS exported to SMS.csv".format(len(fichiers))
+	print "{0!s} SMS successfully exported to SMS.csv".format(len(fichiers))
 
 if __name__ == "__main__":
 	main(sys.argv[1:])
