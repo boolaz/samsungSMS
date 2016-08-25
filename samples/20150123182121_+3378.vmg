@@ -12,7 +12,7 @@ END:VCARD
 BEGIN:VENV
 BEGIN:VBODY
 Date:23.01.2015 18:21:21
-TEXT;CHARSET=UTF-8;ENCODING=QUOTED-PRINTABLE:this is the body of the message 1
+TEXT;CHARSET=UTF-8;ENCODING=QUOTED-PRINTABLE:this is the body of the second message I would also like to include
 END:VBODY
 END:VENV
 END:VMSG
