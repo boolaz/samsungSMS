@@ -1,6 +1,8 @@
 # samsungSMS
 
-If you try to extract the content from some Samsung mobile phones (B550H and some other types as well) with Cellebrite UFED, you won't be able to dump the list of the SMS sent and received from the device. If you try to do it with MSAB XRY, you'll be presented with a bunch of .VMG files that might be very numerous (one for each SMS). Therefore, presenting them in your report might be a tough task to achieve.
+If you try to extract the content from some Samsung mobile phones (B550H and some other types as well) with Cellebrite UFED, you won't be able to dump the list of the SMS sent and received from the device. If you try to do it with MSAB XRY, you'll not get much more.
+
+The only option available to you in this case is using the phone itself. The mobile phone will build a backup of the SMS database in a directory on the SDCARD. You'll be then presented with a bunch of .VMG files that might be very numerous (one for each SMS). Therefore, presenting them in your report might be a tough task to achieve.
 
 The purpose of this tool is to convert all the .VMG files resulting from an XRY extraction to a neat CSV file that you can use to build your report in a simple way.
 
