@@ -13,11 +13,11 @@ A stand-alone binary version for windows is also available for download.
 
 ## Syntax
 
-Simply execute the python script or the windows binary with the directory containing the .VMG SMS files as an arguments
+Simply execute the python script or the windows binary with the directory containing the .VMG SMS files as an argument
 
     $ ./samsungSMS.py SMS_directory
 
-As an output, you'll get a text CSV file with the details of the SMS files
+As an output, you'll get a text CSV file with the details of all the SMS files
 
 
 Stay tuned for updates and please, feel free to report any bug to the author.
