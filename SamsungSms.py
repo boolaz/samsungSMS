@@ -1,11 +1,11 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 #  ------------------------------------------------------------------------
-#  NOM : samsungSMS.py
-#  AUTEUR : Bruno VALENTIN (bruno@boolaz.com)
-#  VERSION : 1.0
-#  DATE : 27/07/2016
-#  DESCRIPTION : parses SMS from Samsung SMB-550H Cellphone (.vmg files)
+#  Name: samsungSMS.py
+#  Author : Bruno VALENTIN (bruno@boolaz.com)
+#  Revision : 1.0
+#  Date : 27/07/2016
+#  Description : parses SMS from Samsung SMB-550H Cellphone (.vmg files)
 
 import os,sys,re
 from sys import argv
