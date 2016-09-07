@@ -76,7 +76,7 @@ def main(argv):
 		usage(usage_text)
 		sys.exit(2)
 
-	# search for files ----
+	# searches for files ----
 	fichiers=[]
 	try:
 		for root, dirs, files in os.walk(chemin, topdown=False):
@@ -86,7 +86,7 @@ def main(argv):
 	except:
 		print 'A problem occured during file enumeration'
 
-	# analysis of files
+	# analysis of found files
 	out_file=open("SMS.csv","w")
 	for fichier in fichiers:
 		sms_status=sms_box=sms_cell=sms_date=sms_text=''
@@ -124,7 +124,6 @@ def main(argv):
 				if value:
 					sms_text=value.group(1).strip('\r\n')
 					sms_text = re.sub(r"=$", "", sms_text)
-					#sms_text=sms_text
 					in_body=True
 					match_flag=True
 
